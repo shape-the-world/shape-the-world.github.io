@@ -11,7 +11,8 @@ module.exports = {
   tagline: 'The global shape modelling network',
   url: 'https://shape-the-world.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  trailingSlash: true,
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'shape-the-world', // Usually your GitHub org/user name.

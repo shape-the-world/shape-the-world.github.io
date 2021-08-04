@@ -5,4 +5,4 @@ title: Pipeline overview
 
 # Overview of the pipeline
 
-* [Data repository](data-repository)
+* [Data repository](/case-studies/vertebra/data-repository)
