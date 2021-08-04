@@ -47,18 +47,10 @@ const LogoList = [
   {
     title: '',
     Svg: require('../../static/img/uct-logo.svg').default,
-    description: (
-      <>
-      </>
-    ),
   },
   {
     title: '',
     Svg: require('../../static/img/unibasel-logo.svg').default,
-    description: (
-      <>
-      </>
-    ),
   },
 
 ];
@@ -78,15 +70,11 @@ function Feature({Svg, title, description}) {
   );
 }
 
-function Logo({Svg, title, description}) {
+function Logo({Svg, title}) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
       </div>
     </div>
   );
@@ -94,6 +82,7 @@ function Logo({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
+    <div>
     <section className={styles.features}>
       <div className="container">
         <div className="row">
@@ -101,6 +90,10 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div>
+      </div>
+    </section>
+    <section className={styles.features+ " logo-row"}>
+      <div className="container">
         <div className="row">
           {LogoList.map((props, idx) => (
             <Logo key={idx} {...props} />
@@ -108,6 +101,8 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+    </div>
   );
+
 }
 

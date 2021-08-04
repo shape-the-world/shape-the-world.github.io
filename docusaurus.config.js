@@ -9,14 +9,17 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Shape the world',
   tagline: 'The global shape modelling network',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://shape-the-world.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'shape-the-world', // Usually your GitHub org/user name.
+  projectName: 'shape-the-world.github.io', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      disableSwitch: true
+    },
     navbar: {
       title: 'Shape the world',
       logo: {
@@ -32,21 +35,20 @@ module.exports = {
         },*/
         {label : 'About us', position: 'left',
           items: [
-            {to: 'vision', label : 'Vision'},
-            {to: 'partners', label : 'Partners'},
+            {to: 'about/vision', label : 'Vision'},
+            {to: 'about/partners', label : 'Partners'},
           ],
         },
         {label : `Case studies`, position : 'left',
           items: [
-            {to: 'vertebra/vertebra', label : 'Vertebra-modelling'},
-            {to: 'testpage', label : 'Senkenberg chimpanzees'},
+            {to: 'case-studies/vertebra/vertebra', label : 'Vertebra-modelling'},
           ],
         },
         {label : 'Theory', position : 'left',
           items: [
-            {to: 'scientific-articles', label : 'Scientific articles'},
-            {to: 'primers', label : 'Primers'},
-            {to: 'courses', label : 'Courses'},
+            {to: '/theory/scientific-articles', label : 'Scientific articles'},
+            {to: '/theory/primers', label : 'Primers'},
+            {to: '/theory/courses', label : 'Courses'},
           ],
         },
         {to: 'conversations', label : 'Conversations', position: 'left'},
@@ -102,7 +104,7 @@ module.exports = {
           ],
         }, */
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Global shape network`,
+      copyright: `Copyright © ${new Date().getFullYear()} Global shape network`
     },
     prism: {
       theme: lightCodeTheme,
