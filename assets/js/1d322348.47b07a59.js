@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshape_the_world=self.webpackChunkshape_the_world||[]).push([[378],{5459:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"kick-off","name":"kick-off","count":1,"permalink":"/blog/tags/kick-off"}')}}]);
