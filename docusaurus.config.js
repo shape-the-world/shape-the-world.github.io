@@ -34,27 +34,47 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },*/
-        {label : 'About us', position: 'left',
+        {
+          label: 'About us', position: 'left',
           items: [
-            {to: 'about/vision', label : 'Vision'},
-            {to: 'about/partners', label : 'Partners'},
+            { to: 'about/vision', label: 'Vision' },
+            { to: 'about/partners', label: 'Partners' },
           ],
         },
-        {label : `Case studies`, position : 'left',
+        {
+          label: `Showcases`, position: 'left',
           items: [
-            {to: 'case-studies/vertebra/vertebra', label : 'Vertebra-modelling'},
+            {
+              to: `model-building`,
+              label: 'Building a shape model from scratch (Jupyter)'
+            }, 
+            { to: 'case-studies/vertebra/annotation-segmentation', 
+              label: 'Annotation-based segmentation (GUI)' 
+            },
+          ]
+        },
+        {
+          label: `Case studies`, position: 'left',
+            items: [
+              { to: 'case-studies/vertebra/pipeline-and-data-management', label: 'Pipeline and data management'},
+              { to: 'case-studies/vertebra/model-building', label: 'Model-buidling' },
+              { to: 'case-studies/vertebra/contour-fitting', label: 'Contour-fitting' },
+              { to: 'case-studies/vertebra/vertebra', label: 'Intensity-fitting' },
+              { to: 'case-studies/vertebra/annotation-based-segmentation', label: 'Annotation-based Segmentation'},
+              { to: 'case-studies/vertebra/bmd-application', label: 'Clinical application: Bone mineral density estimation' },
           ],
         },
-        {label : 'Theory', position : 'left',
+        {
+          label: 'Theory', position: 'left',
           items: [
-            {to: '/theory/scientific-articles', label : 'Scientific articles'},
-            {to: '/theory/primers', label : 'Primers'},
-            {to: '/theory/courses', label : 'Courses'},
+            { to: '/theory/scientific-articles', label: 'Scientific articles' },
+            { to: '/theory/primers', label: 'Primers' },
+            { to: '/theory/courses', label: 'Courses' },
           ],
         },
-        {to: 'conversations', label : 'Conversations', position: 'left'},
-        {to: 'resources', label : 'Resources', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: 'conversations', label: 'Conversations', position: 'left' },
+        { to: 'resources', label: 'Resources', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         /*{
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
