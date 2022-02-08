@@ -80,6 +80,8 @@ function Logo({Svg, title}) {
   );
 }
 
+/*
+// Version with logo
 export default function HomepageFeatures() {
   return (
     <div>
@@ -100,9 +102,26 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
+    </section> 
+    </div>
+  );
+
+}*/
+
+
+export default function HomepageFeatures() {
+  return (
+    <div>
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
     </section>
     </div>
   );
 
 }
-

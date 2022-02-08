@@ -9,6 +9,3 @@ Technical stuff
 * like data repository
 * 
 
-
-
-* [Data repository](/case-studies/vertebra/data-repository)

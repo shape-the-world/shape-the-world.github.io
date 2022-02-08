@@ -17,6 +17,15 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'shape-the-world', // Usually your GitHub org/user name.
   projectName: 'shape-the-world.github.io', // Usually your repo name.
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig: {
     colorMode: {
       disableSwitch: true
@@ -41,27 +50,22 @@ module.exports = {
             { to: 'about/partners', label: 'Partners' },
           ],
         },
-        {
-          label: `Showcases`, position: 'left',
-          items: [
-            {
-              to: `model-building`,
-              label: 'Building a shape model from scratch (Jupyter)'
-            }, 
-            { to: 'case-studies/vertebra/annotation-segmentation', 
-              label: 'Annotation-based segmentation (GUI)' 
-            },
-          ]
-        },
+        // {
+        //   label: `Showcases`, position: 'left',
+        //   items: [
+        //     {
+        //       to: `model-building`,
+        //       label: 'Building a shape model from scratch (Jupyter)'
+        //     }, 
+        //     { to: 'case-studies/vertebra/annotation-segmentation', 
+        //       label: 'Annotation-based segmentation (GUI)' 
+        //     },
+        //   ]
+        // },
         {
           label: `Case studies`, position: 'left',
             items: [
-              { to: 'case-studies/vertebra/pipeline-and-data-management', label: 'Pipeline and data management'},
-              { to: 'case-studies/vertebra/model-building', label: 'Model-buidling' },
-              { to: 'case-studies/vertebra/contour-fitting', label: 'Contour-fitting' },
-              { to: 'case-studies/vertebra/vertebra', label: 'Intensity-fitting' },
-              { to: 'case-studies/vertebra/annotation-based-segmentation', label: 'Annotation-based Segmentation'},
-              { to: 'case-studies/vertebra/bmd-application', label: 'Clinical application: Bone mineral density estimation' },
+              { to: '/case-studies/vertebra/vertebra', label: '2D/3D registration of vertebra'},
           ],
         },
         {
@@ -125,7 +129,7 @@ module.exports = {
           ],
         }, */
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Global shape network`
+      copyright: `Copyright © ${new Date().getFullYear()} Shape-the-world`
     },
     prism: {
       theme: lightCodeTheme,
