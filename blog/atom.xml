@@ -13,5 +13,10 @@
         <link href="https://shape-the-world.github.io/blog/welcome"/>
         <updated>2021-08-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The start of a great network.]]></summary>
+        <content type="html"><![CDATA[<p>The start of a great network.</p>]]></content>
+        <author>
+            <name>Marcel Lüthi</name>
+            <uri>https://github.com/marcelluethi</uri>
+        </author>
     </entry>
 </feed>

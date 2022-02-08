@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkshape_the_world=self.webpackChunkshape_the_world||[]).push([[112],{9263:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"shape-modelling","name":"shape-modelling","count":1,"permalink":"/blog/tags/shape-modelling"}')}}]);
