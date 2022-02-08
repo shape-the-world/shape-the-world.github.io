@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Global',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/worldmap.svg').default,
     description: (
       <>
       A global network for leveraging shape modelling to address local challenges.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'FAIR & Open',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/book.svg').default,
     description: (
       <>
         Findable, Accessible, Interoperable and Reusable
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Socially responsive',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/people.svg').default,
     description: (
       <>
       Producing and sharing knowledge for the public good.
@@ -33,7 +33,7 @@ const FeatureList = [
   },
    {
     title: 'Impactful',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/impact.svg').default,
     description: (
       <>
         Fully developed use cases which are easy to adapt and deploy in real world settings.

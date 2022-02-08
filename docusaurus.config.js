@@ -34,7 +34,7 @@ module.exports = {
       title: 'Shape the world',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/world.svg',
       },
       items: [
         /*{
