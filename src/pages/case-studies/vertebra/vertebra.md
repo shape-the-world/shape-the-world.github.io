@@ -5,6 +5,9 @@ title: Vertebra case study - Overview
 
 # Shapemodel-based 2D/3D reconstruction of vertebra for BMD estimation
 
+*Attention: This case study is currently in a draft stage. Some experiments
+are missing and parts of the pipeline might be tuned or updates as a result.*
+
 This case study describes a complete pipeline for building a shape and intensity model of the vertebra and its application to the use of bone mineral density estimation from a single X-Ray image. It consists of several part, each of which 
 describes a self-contained modul that could be useful by itself in other shape modelling applications. The individual parts are
 
@@ -21,3 +24,8 @@ say that these are even overly simplistic. The rational is to show the simplest 
 ### The software 
 
 The pipeline is implemented using the open source software [Scalismo](https://scalismo.org). The full source code is available on our [Github repository](https://github.com/shape-the-world/vertebra-case-study).
+
+### The data
+
+All the vertebra models are built using the publicly available [VerSe dataset](https://github.com/anjany/verse). 
+
