@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shape-the-world.github.io/blog</id>
     <title>Shape the world Blog</title>
-    <updated>2021-08-04T00:00:00.000Z</updated>
+    <updated>2022-01-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shape-the-world.github.io/blog"/>
     <subtitle>Shape the world Blog</subtitle>
@@ -11,9 +11,12 @@
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
         <link href="https://shape-the-world.github.io/blog/welcome"/>
-        <updated>2021-08-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The start of a great network.]]></summary>
-        <content type="html"><![CDATA[<p>The start of a great network.</p>]]></content>
+        <updated>2022-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to shape-the-world - a place where shape modelling theory meets]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to shape-the-world - a place where shape modelling theory meets
+practice. </p><p>We have just published a draft of a comprehensive <a href="/case-studies/vertebra/vertebra/">case study</a> on vertebra modelling
+and 2D/3D reconstruction for obtaining BMD measurements from X-Ray images. The pipeline resulted
+from joint work with Prof. Tinashe Mutsvangwa, Division of Biomedical Engineering, University of Cape Town.</p>]]></content>
         <author>
             <name>Marcel Lüthi</name>
             <uri>https://github.com/marcelluethi</uri>
