@@ -48,6 +48,7 @@ module.exports = {
           items: [
             { to: 'about/vision', label: 'Vision' },
             { to: 'about/partners', label: 'Partners' },
+            { to: 'about/credits', label: 'Credits' },
           ],
         },
         // {
