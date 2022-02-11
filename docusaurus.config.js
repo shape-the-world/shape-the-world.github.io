@@ -69,6 +69,12 @@ module.exports = {
           ],
         },
         {
+          label: `Models`, position: 'left',
+            items: [
+              { to: '/models/models-overview', label: 'Statistical shape models'},
+          ],
+        },
+        {
           label: 'Theory', position: 'left',
           items: [
             { to: '/theory/scientific-articles', label: 'Scientific articles' },
