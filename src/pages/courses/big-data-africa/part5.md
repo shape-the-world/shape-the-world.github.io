@@ -3,23 +3,23 @@ id: part5
 title: Evaluating and assessing the model
 ---
 
-# Assessing and evaluating the reconstructed 3D shape
+# Reconstruction from real data
 
-In this last part we continue to probe our model by performing posterior predictive checks. 
-We also compare different models and assess the influence of factors such as the choice of prior distribution and other modelling assumptions. 
+In this last part the participants apply their modelling pipeline to real data and assess the performance
+and limitations of the model. They also quantify the uncertainty of their model prediction
 
-### Contents:
+### Contents
 
-* Posterior predictive checks [Jupyter-Notebook](../TODO)
-* Understanding and comparing multiple models [Slides](../TODO)
+* Evaluating a fitted model and comparing multiple models ([Slides](https://github.com/shape-the-world/big-data-africa-23/raw/main/slides/model-evaluation.pdf))
+* Practice: Fit the model to real-data (Continue working on Jupyter-notebook from [part4](/courses/big-data-africa/part4))
 
 
 ### Learning goals
 
 The participants
-
-* can perform prior predictive checks
-* know a variety of techniques to assess the properties and limits of their fitted models 
+* can use the developed components to derive a solution that works on real data.
+* know a variety of techniques to assess the properties and limits of their fitted models.
+* can assess the uncertainty inherent in the model.
 * understand the full Bayesian workflow for shape modelling and can apply it to other inference problems. 
 
 ### Reading

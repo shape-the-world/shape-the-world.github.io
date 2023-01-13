@@ -15,21 +15,22 @@ at the [Big Data Africa School - 2023](https://www.sarao.ac.za/students/4th-big-
 
 ### Contents
 
-In this course, the participant will work on the problem of 3D from 2D reconstruction of a vertebra from a single 2D contour using statistical shape models. 
-Along the way, the participants will learn how to approach such a problem in a principled way using the Bayesian workflow. The goal is that the participants do not only learn how to 
-perform 3D from 2D reconstruction using shape models, but learn a principled workflow that they can apply to all sorts of inference problems. 
+In this project, the participant will work on the problem of 3D from 2D reconstruction of a vertebra from a single 2D contour using statistical shape models. This task has various applications from surgery planning 
+to diagnosis and is of particular interest in settings where costs or other resources prohibit the use of 
+acquiring a 3D scan. More importantly, however, the course attempts to teach an arguably more important, learning goal: The participants will follow a principled Bayesian workflow and learn a set of principles and 
+methods, which lead to applications that can be trusted and understood independently of the specific  data-analysis task. 
 
 
 #### Day 1: Generative modelling and the Bayesian workflow
 - [Part 1](/courses/big-data-africa/part1): Introduction to the Bayesian workflow and generative modelling
-- [Part 2](/courses/big-data-africa/part2): Modelling of vertebra shapes
+- [Part 2](/courses/big-data-africa/part2): Generative modelling of vertebra shapes and 2D contours
 
 #### Day 2: Fitting a model
-- [Part 3](/courses/big-data-africa/part3): Model fitting using Markov Chain Monte Carlo
-- [Part 4](/courses/big-data-africa/part4): 3D from 2D Reconstruction of Vertebrae
+- [Part 3](/courses/big-data-africa/part3): Probabilistic model fitting 
+- [Part 4](/courses/big-data-africa/part4): 3D reconstruction from 2D of Vertebrae on simulated data
 
 #### Day 3: Evaluating a fitted model
-- [Part 5](/courses/big-data-africa/part5) : Assessing and evaluating the reconstructed 3D vertebra shape
+- [Part 5](/courses/big-data-africa/part5) : 3D reconstruction on real data
 
 
 ### Target audience and prerequisites
@@ -40,6 +41,8 @@ strongly typed language such as Java, C# or C++.
 
 
 ### Literature and additional resources
+
+The general approach is greatly inspired by the excellent course (and textbook) [*Statistical Rethinking*](https://xcelab.net/rm/statistical-rethinking/) by Richard McElreath.
 
 #### Research papers
 

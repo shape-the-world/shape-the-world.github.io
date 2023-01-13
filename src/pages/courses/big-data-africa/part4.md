@@ -12,18 +12,18 @@ run it on real data.
 
 
 ### Contents:
-* Fitting shape models in Scalismo [Tutorial](../TODO)
-* 3D from 2D reconstruction on simulated data [Jupyter-Notebook](../TODO)
-* 3D from 2D reconstruction on real data [Jupyter-Notebook](../TODO)
-
+* Fitting shape models as Bayesian regression ([Article](/courses/big-data-africa/fitting-as-regression))
+* 3D from 2D reconstruction of vertebra shapes on simulated data ([Jupyter-Notebook](../TODO))
 
 #### Learning goals
 
 The participants
 
-* Understand the main building blocks for fitting a shape model.
+* Understand shape model fitting as a regression problem.
 * can fit their shape model of the vertebra to simulated 2d contours.
-* know how to use simulated data to evaluate and assess fitting problems.
+* can use simulated data to evaluate and assess fitting problems.
+* can assess the limitations of the model.
+* know how to extend the model to include pose and rendering parameters.
 
 
 ### Reading
