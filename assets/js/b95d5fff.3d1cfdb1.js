@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshape_the_world=self.webpackChunkshape_the_world||[]).push([[5709],{4373:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vertebra-modelling","name":"vertebra modelling","count":1,"permalink":"/blog/tags/vertebra-modelling"}')}}]);
