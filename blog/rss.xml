@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Shape the world Blog</title>
+        <link>https://shape-the-world.github.io/blog</link>
+        <description>Shape the world Blog</description>
+        <lastBuildDate>Tue, 11 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://shape-the-world.github.io/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to shape-the-world - a place where shape modelling theory meets]]></description>
+        </item>
+    </channel>
+</rss>

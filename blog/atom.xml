@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://shape-the-world.github.io/blog</id>
+    <title>Shape the world Blog</title>
+    <updated>2022-01-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://shape-the-world.github.io/blog"/>
+    <subtitle>Shape the world Blog</subtitle>
+    <icon>https://shape-the-world.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://shape-the-world.github.io/blog/welcome"/>
+        <updated>2022-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to shape-the-world - a place where shape modelling theory meets]]></summary>
+    </entry>
+</feed>
