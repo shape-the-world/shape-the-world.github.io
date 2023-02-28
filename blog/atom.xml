@@ -13,13 +13,5 @@
         <link href="https://shape-the-world.github.io/blog/welcome"/>
         <updated>2022-01-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to shape-the-world - a place where shape modelling theory meets]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to shape-the-world - a place where shape modelling theory meets
-practice. </p><p>We have just published a draft of a comprehensive <a href="/case-studies/vertebra/vertebra/">case study</a> on vertebra modelling
-and 2D/3D reconstruction for obtaining BMD measurements from X-Ray images. The pipeline resulted
-from joint work with Prof. Tinashe Mutsvangwa, Division of Biomedical Engineering, University of Cape Town.</p>]]></content>
-        <author>
-            <name>Marcel Lüthi</name>
-            <uri>https://github.com/marcelluethi</uri>
-        </author>
     </entry>
 </feed>

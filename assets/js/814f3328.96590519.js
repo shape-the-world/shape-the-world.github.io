@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkshape_the_world=self.webpackChunkshape_the_world||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);

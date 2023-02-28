@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0">
     <channel>
         <title>Shape the world Blog</title>
         <link>https://shape-the-world.github.io/blog</link>
@@ -13,10 +13,6 @@
             <guid>welcome</guid>
             <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to shape-the-world - a place where shape modelling theory meets]]></description>
-            <content:encoded><![CDATA[<p>Welcome to shape-the-world - a place where shape modelling theory meets
-practice. </p><p>We have just published a draft of a comprehensive <a href="/case-studies/vertebra/vertebra/">case study</a> on vertebra modelling
-and 2D/3D reconstruction for obtaining BMD measurements from X-Ray images. The pipeline resulted
-from joint work with Prof. Tinashe Mutsvangwa, Division of Biomedical Engineering, University of Cape Town.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
